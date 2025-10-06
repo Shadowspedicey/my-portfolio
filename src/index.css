@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import "tailwindcss";
 
 @theme {
 	--color-primary-500: #111111;
 	--color-primary-300: #1E1E1E;
---color-primary-200: #181818;
+	--color-primary-200: #181818;
 	--color-secondary-400: #91000e;
 	--color-secondary-500: #80000D;
 	--color-secondary-300: #C91A27;
 	--color-secondary-200: #F14952;
 
+	--font-fjalla: "Fjalla One", "arial";
+
 	--breakpoint-xs: 425px;
+}
+
+#about::before {
+	content: "";
+	background-color: var(--color-primary-300);
+	position: absolute;
+	width: 200vw;
+	height: 100%;
+	left: -50%;
+	z-index: -9999;
 }

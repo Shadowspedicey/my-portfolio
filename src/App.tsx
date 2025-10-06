@@ -1,3 +1,4 @@
+import About from "./About"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
 
@@ -9,6 +10,7 @@ function App() {
 			<main className="px-5 md:px-0 md:w-2/3 xl:w-1/2 m-auto">
 				<Navbar />
 				<Hero />
+				<About />
 			</main>
 		</>
 	)
