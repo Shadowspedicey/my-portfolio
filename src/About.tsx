@@ -25,7 +25,7 @@ export default function About() {
 	return(
 		<div id="about" className="relative text-lg" ref={aboutRef}>
 			<br></br>
-			<h1 className="mb-6 text-secondary-300 text-center text-4xl font-bold font-fjalla">About</h1>
+			<h2>About</h2>
 			<div className="[&>p]:my-5 [&>p]:text-white relative -left-7 opacity-0 transition-all duration-500" ref={textContainer}>
 				<p className="text-white">I bridge the gap between business needs and technology, whether by joining a team to build scalable systems or helping a business digitize its operations, my mission is the same: to deliver software that empowers business growth, and scales seamlessly.</p>
 				<p>I started out in programming by developing games in Unity, drawn by the thrill of building projects from scratch. That hands-on creativity soon led me to explore React for web development, where I learned how to craft engaging user interfaces. Later, I pivoted into Android native development, but I realized something important: my true interest wasn’t just in what users see, but in the deeper logic that makes applications work.</p>

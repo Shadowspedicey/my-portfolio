@@ -26,10 +26,10 @@ export default function SkillCard({ skillCategory} : {skillCategory: SkillCatego
 
 	return(
 		<div onClick={handleClick} className="min-h-60 text-white bg-primary-300 py-6 px-5 flex flex-col cursor-pointer grow-1 shrink-0 basis-[325px] hover:bg-secondary-300 hover:[&_*]:text-white hover:[&_svg]:fill-white hover:scale-105 hover:[&_.arrows>*]:-left-0 hover:[&_.arrows>*]:opacity-100">
-			<svg className="h-20 fill-secondary-300 self-center mb-7" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">{skillCategory.icon}</svg>
+			<svg className="h-20 fill-secondary-300 self-center mb-3" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">{skillCategory.icon}</svg>
 			{ !isShown ?
 				<div className={`flex flex-col justify-between flex-1 opacity-0 ${isActive && "transition-opacity"} ${!isActive && fadeState == "completed" && "opacity-100 duration-200"}`}>
-					<h2 className="text-white text-2xl font-bold">{skillCategory.title}</h2>
+					<h3 className="text-white text-2xl font-bold">{skillCategory.title}</h3>
 					<p className="">{skillCategory.text}</p>
 					{ Array.isArray(skillCategory.skills) && skillCategory.skills.length > 0 &&
 						<div className="flex items-center gap-2 mt-auto">

@@ -15,6 +15,12 @@
 	--breakpoint-xs: 425px;
 }
 
+@layer base {
+	h2 {
+		@apply text-center text-secondary-300 font-bold font-fjalla text-4xl mb-6;
+	}
+}
+
 #about::before {
 	content: "";
 	background-color: var(--color-primary-300);

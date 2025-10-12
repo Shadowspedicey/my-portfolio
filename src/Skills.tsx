@@ -30,7 +30,7 @@ export default function Skills() {
 	]
 	return(
 		<div className="py-5">
-			<h1 className="text-center text-secondary-300 font-fjalla text-4xl mb-5">Skills</h1>
+			<h2>Skills</h2>
 			<div className="flex gap-5 flex-wrap">
 				{
 					skills.map(s =>
