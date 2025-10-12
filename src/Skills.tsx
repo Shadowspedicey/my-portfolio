@@ -29,7 +29,7 @@ export default function Skills() {
 		}
 	]
 	return(
-		<div className="py-5">
+		<section className="py-5">
 			<h2>Skills</h2>
 			<div className="flex gap-5 flex-wrap">
 				{
@@ -37,6 +37,6 @@ export default function Skills() {
 						<SkillCard skillCategory={s} key={s.title} />
 				)}
 			</div>
-		</div>
+		</section>
 	);
 };

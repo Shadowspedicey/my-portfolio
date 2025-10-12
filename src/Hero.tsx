@@ -28,7 +28,7 @@ export default function Hero() {
 	}, []);
 
 	return(
-		<div id="home" className="mt-20 flex flex-col-reverse xs:flex-row gap-10 items-end">
+		<section id="home" className="mt-20 flex flex-col-reverse xs:flex-row gap-10 items-end">
 			<div id="hero-picture" className={`relative flex-2 -left-50 opacity-0 transition-all duration-1000`}>
 				<img src={me} alt="" />
 			</div>
@@ -42,6 +42,6 @@ export default function Hero() {
 					onMouseLeave={handleMouseLeaveAboutMe}
 					className="bg-gradient-to-r from-secondary-400 to-secondary-300 transition-colors duration-300 w-fit rounded-lg p-2 lg:p-3 text-black md:text-md xl:text-xl mt-5">Learn more about me!</a>
 			</div>
-		</div>
+		</section>
 	)
 }
