@@ -1,6 +1,7 @@
 import About from "./About"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
+import Skills from "./Skills"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 				<Navbar />
 				<Hero />
 				<About />
+				<Skills />
 			</main>
 		</>
 	)
