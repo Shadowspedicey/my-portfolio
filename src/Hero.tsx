@@ -33,9 +33,9 @@ export default function Hero() {
 				<img src={me} alt="" />
 			</div>
 			<div className="relative flex-1 font-bold flex flex-col text-center items-center gap-2 self-center left-50 opacity-0 transition-all duration-1000">
-				<h3 className="text-2xl xs:text-md xl:text-2xl text-secondary-400">Hello, I'm</h3>
+				<p className="text-2xl xs:text-md xl:text-2xl text-secondary-400">Hello, I'm</p>
 				<h1 className="text-5xl xs:text-3xl xs:text-nowrap xl:text-6xl  text-white">Ahmed Khaled</h1>
-				<h2 className="text-3xl xs:text-lg xs:text-nowrap xl:text-3xl text-stone-400">Full Stack Developer</h2>
+				<h1 className="text-3xl xs:text-lg xs:text-nowrap xl:text-3xl text-stone-400">Full Stack Developer</h1>
 				<a
 					href="#about"
 					onMouseMove={handleMouseOverAboutMe}

@@ -1,0 +1,67 @@
+[
+	{
+		"name": "Instadicey",
+		"brief": "The Instadicey project is a simplified clone of Instagram, developed using ASP.NET Core Web API for the backend and React for the frontend, with a PostgreSQL database. It supports authentication via JWT and can be easily run using Docker Compose. The application allows users to create accounts, log in, post photos and posts, like them, and even use a guest mode to explore the platform without signing up. The project mainly focuses on the backend, showcasing skills in building scalable and secure systems, while the frontend serves as a functional but older practical implementation that efficiently demonstrates the app’s features.",
+		"skillsUsed": [
+			"C#",
+			"ASP.NET Core",
+			"PostgreSQL",
+			"Entity Framework Core",
+			"React",
+			"Git",
+			"Bruno",
+			"Docker",
+			"Docker Compose",
+			"Supabase",
+			"Render"
+		],
+		"images": [
+			"0.png",
+			"1.png",
+			"2.png",
+			"3.png",
+			"4.png",
+			"5.png"
+		],
+		"livePreviewLink": "https://shadowspedicey.github.io/instadicey-instagram-clone/#/",
+		"githubLink": "https://github.com/Shadowspedicey/instagram-clone-fullstack"
+	},
+	{
+		"name": "Edu App",
+		"brief": "This app streamlines communication between teachers and parents while supporting both online and in-center learning. Built with ASP.NET Core for the backend and Flutter for the mobile frontend, it uses a PostgreSQL database and is hosted on Render for reliable deployment. It allows teachers to track student attendance through student QR codes, conduct online exams with grades instantly sent to parents, and send real-time notifications via WhatsApp or Telegram upon student check-in. The system supports multiple user roles — teacher, student, assistant, and parent — allowing for secure role-based access and data management. Parents can easily follow their child’s progress through continuous updates on exams and assignments, while teachers can upload educational videos, share study materials, and and manage all content in one place. The app is flexible, user-friendly, and customizable to include any additional features tutors may need.",
+		"skillsUsed": [
+			"C#",
+			"ASP.NET Core",
+			"PostgreSQL",
+			"Entity Framework Core",
+			"WhatsApp Web API",
+			"Telegram Bot API",
+			"Git",
+			"Bruno",
+			"Docker",
+			"AWS",
+			"Render"
+		],
+		"images": [
+			"0.png"
+		]
+	},
+	{
+		"name": "News Website",
+		"brief": "A news website that delivers coverage across diverse categories, offering an engaging experience for both readers and journalists. Built with React and hosted on Vercel, it leverages Firebase for backend services including Authentication, Cloud Firestore, and Storage, ensuring secure access, real-time content updates, and efficient media management. Writers can easily publish and tag articles for better organization, while readers can browse by category, search topics, view featured and breaking news, and engage through comments. The platform also includes an admin dashboard for managing posts, users, and categories, along with social sharing and personalized content recommendations for a seamless and dynamic user experience.",
+		"skillsUsed": [
+			"React",
+			"Git",
+			"Firebase Authentication",
+			"Firebase Cloud Firestore",
+			"Firebase Storage",
+			"Vercel",
+			"Responsive Web Design"
+		],
+		"images": [
+			"0.png",
+			"1.png",
+			"2.png"
+		]
+	}
+]

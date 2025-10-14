@@ -1,6 +1,7 @@
 import About from "./About"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
+import Projects from "./Projects"
 import Skills from "./Skills"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 				<Hero />
 				<About />
 				<Skills />
+				<Projects />
 			</main>
 		</>
 	)
