@@ -10,7 +10,7 @@ export default function Projects() {
 			<ul className="flex flex-col gap-12">
 				{
 					projects.map(p =>
-						<ProjectCard project={p} />
+						<ProjectCard project={p} key={p.name} />
 					)
 				}
 			</ul>
