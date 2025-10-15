@@ -28,12 +28,18 @@
 	}
 }
 
-#about::before {
-	content: "";
-	background-color: var(--color-primary-300);
-	position: absolute;
-	width: 200vw;
-	height: 100%;
-	left: -50%;
-	z-index: -9999;
+@layer utilities {
+	.with-lighter-primary-background {
+		position: relative;
+		z-index: 0;
+	}
+	.with-lighter-primary-background::before {
+		content: "";
+		background-color: var(--color-primary-300);
+		position: absolute;
+		width: 200vw;
+		height: 100%;
+		left: -50%;
+		z-index: -9999;
+	}
 }
