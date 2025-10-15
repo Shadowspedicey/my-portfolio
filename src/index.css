@@ -23,6 +23,9 @@
 	h2 {
 		@apply text-center text-secondary-300 font-bold font-fjalla text-4xl mb-6;
 	}
+	section {
+		@apply py-6
+	}
 }
 
 #about::before {

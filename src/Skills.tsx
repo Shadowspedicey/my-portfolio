@@ -29,7 +29,7 @@ export default function Skills() {
 		}
 	]
 	return(
-		<section className="py-5">
+		<section>
 			<h2>Skills</h2>
 			<div className="flex gap-5 flex-wrap">
 				{

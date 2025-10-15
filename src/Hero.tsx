@@ -28,7 +28,7 @@ export default function Hero() {
 	}, []);
 
 	return(
-		<section id="home" className="mt-20 flex flex-col-reverse xs:flex-row gap-10 items-end">
+		<section id="home" className="mt-20 flex flex-col-reverse xs:flex-row gap-10 items-end py-0">
 			<div id="hero-picture" className={`relative flex-2 -left-50 opacity-0 transition-all duration-1000`}>
 				<img src={me} alt="" />
 			</div>

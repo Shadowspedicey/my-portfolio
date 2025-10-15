@@ -5,7 +5,7 @@ export default function Projects() {
 	const projects: Array<Project> = projectsJson as Project[];
 
 	return(
-		<section id="projects" className="lg:-mx-40 mt-5">
+		<section id="projects" className="lg:-mx-40">
 			<h2>Projects</h2>
 			<ul className="flex flex-col gap-12">
 				{

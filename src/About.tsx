@@ -23,7 +23,7 @@ export default function About() {
   }, [hasTriggered]);
 
 	return(
-		<section id="about" className="relative text-lg" ref={aboutRef}>
+		<section id="about" className="relative text-lg py-0" ref={aboutRef}>
 			<br></br>
 			<h2>About</h2>
 			<div className="[&>p]:my-5 [&>p]:text-white relative -left-7 opacity-0 transition-all duration-500" ref={textContainer}>
