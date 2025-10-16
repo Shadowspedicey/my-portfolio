@@ -15,7 +15,7 @@ export default function About() {
           observer.disconnect();
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.15 }
     );
 
     if (aboutRef.current && textContainer.current) observer.observe(aboutRef.current);

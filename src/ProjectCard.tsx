@@ -21,10 +21,10 @@ export default function ProjectCard({ project } : { project: Project}) {
 			  observer.disconnect();
 			}
 		  },
-		  { threshold: 0.5 }
+		  { threshold: 0.75 }
 		);
 	
-		if (projectRef.current) observer.observe(projectRef.current);
+		if (projectRef.current) observer.observe(projectRef.current.getElementsByClassName("img-container")[0]);
 		return () => observer.disconnect();
 	  }, [hasTriggered]);
 
@@ -55,7 +55,7 @@ export default function ProjectCard({ project } : { project: Project}) {
 			<div
 			onMouseEnter={startCycle}
 			onMouseLeave={stopCycle}
-			className="relative overflow-hidden rounded-2xl shadow-lg w-full flex-1 aspect-video h-fit"
+			className="relative overflow-hidden rounded-2xl shadow-lg w-full flex-1 aspect-video h-fit img-container"
 			>
 				<AnimatePresence>
 					<motion.img
