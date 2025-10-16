@@ -30,7 +30,7 @@ export default function Hero() {
 	return(
 		<section id="home" className="mt-20 flex flex-col-reverse xs:flex-row gap-10 items-end py-0">
 			<div id="hero-picture" className={`relative flex-2 -left-50 opacity-0 transition-all duration-1000`}>
-				<img src={me} alt="" />
+				<img src={me.src} alt="" />
 			</div>
 			<div className="relative flex-1 font-bold flex flex-col text-center items-center gap-2 self-center left-50 opacity-0 transition-all duration-1000">
 				<p className="text-2xl xs:text-md xl:text-2xl text-secondary-400">Hello, I'm</p>

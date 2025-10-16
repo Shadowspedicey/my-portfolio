@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function ProjectCard({ project } : { project: Project}) {
 	const [index, setIndex] = useState(0);
-	const intervalRef = useRef<number | null>(null);
+	const intervalRef = useRef<NodeJS.Timeout | null>(null);
 	const ANIMATION_DURATION_IN_SECONDS = 2;
 	const PAUSE_BETWEEN_SLIDES_IN_SECONDS = 1;
 
