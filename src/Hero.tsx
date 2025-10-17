@@ -20,11 +20,13 @@ export default function Hero() {
 	useEffect(() => {
 		const parent = document.getElementById("home");
 		const children = Array.from(parent?.children ?? []) as HTMLElement[];
-		children.forEach(c => {
+		setTimeout(() => {
+			children.forEach(c => {
 			c.style.left = "0";
 			c.style.right = "0";
-			c.style.opacity = "100";
-		});
+			c.style.opacity = "1";
+			});
+		}, 100);
 	}, []);
 
 	return(
