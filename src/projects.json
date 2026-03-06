@@ -27,6 +27,31 @@
 		"githubLink": "https://github.com/Shadowspedicey/instagram-clone-fullstack"
 	},
 	{
+		"name": "Egypt Beatbox Official Website",
+		"brief": "the official website for Egypt Beatbox, designed to serve as the central hub for the beatbox community and its events. The platform allows visitors to stay updated with the latest beatbox events, explore event lineups, watch recent performance videos, and purchase tickets directly through the site. The system includes a complete ticketing workflow, where users can securely purchase tickets and receive a unique QR code for event entry. Alongside the public website, I built a custom admin dashboard used by the organizers to manage events and monitor ticket sales. The dashboard provides tools to track payments and includes a QR code scanning system that allows staff to quickly verify tickets and grant access at the event entrance. This project focuses on creating a seamless experience for both attendees and event organizers by combining event promotion, ticket management, and on-site access control in a single platform.",
+		"skillsUsed": [
+			"C#",
+			"ASP.NET Core",
+			"PostgreSQL",
+			"Entity Framework Core",
+			"Next.Js",
+			"Git",
+			"Bruno",
+			"Docker",
+			"Render",
+			"Aiven"
+		],
+		"images": [
+			"0.png",
+			"1.png",
+			"2.png",
+			"3.png",
+			"4.png",
+			"5.png"
+		],
+		"livePreviewLink": "http://egypt-beatbox.vercel.app/"
+	},
+	{
 		"name": "Edu App",
 		"brief": "This app streamlines communication between teachers and parents while supporting both online and in-center learning. Built with ASP.NET Core for the backend and Flutter for the mobile frontend, it uses a PostgreSQL database and is hosted on Render for reliable deployment. It allows teachers to track student attendance through student QR codes, conduct online exams with grades instantly sent to parents, and send real-time notifications via WhatsApp or Telegram upon student check-in. The system supports multiple user roles — teacher, student, assistant, and parent — allowing for secure role-based access and data management. Parents can easily follow their child’s progress through continuous updates on exams and assignments, while teachers can upload educational videos, share study materials, and and manage all content in one place. The app is flexible, user-friendly, and customizable to include any additional features tutors may need.",
 		"skillsUsed": [
