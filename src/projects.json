@@ -52,7 +52,7 @@
 		"livePreviewLink": "http://egypt-beatbox.vercel.app/"
 	},
 	{
-		"name": "Edu App",
+		"name": "AcademIQ",
 		"brief": "This app streamlines communication between teachers and parents while supporting both online and in-center learning. Built with ASP.NET Core for the backend and Flutter for the mobile frontend, it uses a PostgreSQL database and is hosted on Render for reliable deployment. It allows teachers to track student attendance through student QR codes, conduct online exams with grades instantly sent to parents, and send real-time notifications via WhatsApp or Telegram upon student check-in. The system supports multiple user roles — teacher, student, assistant, and parent — allowing for secure role-based access and data management. Parents can easily follow their child’s progress through continuous updates on exams and assignments, while teachers can upload educational videos, share study materials, and and manage all content in one place. The app is flexible, user-friendly, and customizable to include any additional features tutors may need.",
 		"skillsUsed": [
 			"C#",
@@ -68,6 +68,7 @@
 			"Render"
 		],
 		"images": [
+			"AcademIQ.jpg",
 			"0.png"
 		]
 	},
