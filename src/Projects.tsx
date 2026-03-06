@@ -9,8 +9,8 @@ export default function Projects() {
 			<h2>Projects</h2>
 			<ul className="flex flex-col gap-12">
 				{
-					projects.map(p =>
-						<ProjectCard project={p} key={p.name} />
+					projects.map((p, i) =>
+						<ProjectCard project={p} key={p.name} displayHoverOverlay={i == 0} />
 					)
 				}
 			</ul>
