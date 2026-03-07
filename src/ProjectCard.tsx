@@ -82,7 +82,7 @@ export default function ProjectCard({ project, displayHoverOverlay } : { project
 			</div>
 			<div className="flex-1 min-w-[350px]">
 				<h3 className="text-white text-3xl font-normal font-kanit">{project.name}</h3>
-				<p className="text-white text-lg font-ubuntu">{project.brief}</p>
+				<p className="text-white text-lg font-ubuntu whitespace-pre-line">{project.brief}</p>
 				<p className="text-white text-lg flex flex-wrap gap-x-2 my-3 pointer-events-none">
 					<span className="text-secondary-300 text-xl font-bold">Skills Used:</span>
 					{project.skillsUsed.map(s => <span className="mr-3" key={s}>{s}</span>)}

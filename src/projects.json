@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Instadicey",
-		"brief": "The Instadicey project is a simplified clone of Instagram, developed using ASP.NET Core Web API for the backend and React for the frontend, with a PostgreSQL database. It supports authentication via JWT and can be easily run using Docker Compose. The application allows users to create accounts, log in, post photos and posts, like them, and even use a guest mode to explore the platform without signing up. The project mainly focuses on the backend, showcasing skills in building scalable and secure systems, while the frontend serves as a functional but older practical implementation that efficiently demonstrates the app’s features.",
+		"brief": "Instadicey is a simplified Instagram-style social media application built with ASP.NET Core Web API, React, and PostgreSQL. The project focuses primarily on backend architecture, implementing JWT-based authentication, REST APIs for posts and interactions, and containerized deployment using Docker Compose.\n\nUsers can create accounts, post photos, like posts, and explore the platform through a guest mode without signing up. The frontend serves as a functional interface to demonstrate the backend systems and application features.",
 		"skillsUsed": [
 			"C#",
 			"ASP.NET Core",
@@ -28,7 +28,7 @@
 	},
 	{
 		"name": "Egypt Beatbox Official Website",
-		"brief": "the official website for Egypt Beatbox, designed to serve as the central hub for the beatbox community and its events. The platform allows visitors to stay updated with the latest beatbox events, explore event lineups, watch recent performance videos, and purchase tickets directly through the site. The system includes a complete ticketing workflow, where users can securely purchase tickets and receive a unique QR code for event entry. Alongside the public website, I built a custom admin dashboard used by the organizers to manage events and monitor ticket sales. The dashboard provides tools to track payments and includes a QR code scanning system that allows staff to quickly verify tickets and grant access at the event entrance. This project focuses on creating a seamless experience for both attendees and event organizers by combining event promotion, ticket management, and on-site access control in a single platform.",
+		"brief": "I developed the official website for Egypt Beatbox, designed as a central hub for the beatbox community and its events. The platform allows visitors to stay updated on upcoming events, explore lineups, watch recent performances, and purchase tickets directly through the site.\n\nThe system includes a full ticketing workflow where users receive a unique QR code for event entry. I also built a custom admin dashboard for organizers to manage events, track ticket sales, and scan QR codes at the entrance to quickly verify tickets and grant access.",
 		"skillsUsed": [
 			"C#",
 			"ASP.NET Core",
@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "AcademIQ",
-		"brief": "This app streamlines communication between teachers and parents while supporting both online and in-center learning. Built with ASP.NET Core for the backend and Flutter for the mobile frontend, it uses a PostgreSQL database and is hosted on Render for reliable deployment. It allows teachers to track student attendance through student QR codes, conduct online exams with grades instantly sent to parents, and send real-time notifications via WhatsApp or Telegram upon student check-in. The system supports multiple user roles — teacher, student, assistant, and parent — allowing for secure role-based access and data management. Parents can easily follow their child’s progress through continuous updates on exams and assignments, while teachers can upload educational videos, share study materials, and and manage all content in one place. The app is flexible, user-friendly, and customizable to include any additional features tutors may need.",
+		"brief": "This app streamlines communication between teachers and parents while supporting both online and in-center learning. Built with ASP.NET Core for the backend and Flutter for the mobile frontend, it uses PostgreSQL and is deployed on Render.\n\nThe platform allows teachers to track attendance using student QR codes, conduct online exams with grades instantly sent to parents, and send automated check-in notifications via WhatsApp or Telegram. It supports multiple roles — teacher, student, assistant, and parent — with secure role-based access.\n\nThe system also includes multi-tenancy support, allowing multiple tutoring centers to use the platform independently while managing their own students, content, and data.",
 		"skillsUsed": [
 			"C#",
 			"ASP.NET Core",
@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Interactive Birthday Website",
-		"brief": "A creative and interactive website built as a personalized birthday gift. The site includes custom UI elements, animations, and themed sections inspired by my friend's interests such as cats, nail art, and gaming. The goal of the project was to design a fun and memorable user experience while experimenting with modern front-end development techniques, responsive design, and interactive components.",
+		"brief": "A creative and interactive website built as a personalized birthday gift. The site includes custom UI elements, animations, and themed sections inspired by my friend's interests such as cats, nail art, and gaming.\n\nThe goal of the project was to design a fun and memorable user experience while experimenting with modern front-end development techniques, responsive design, and interactive components.",
 		"skillsUsed": [
 			"React",
 			"JavaScript",
@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "News Website",
-		"brief": "A news website that delivers coverage across diverse categories, offering an engaging experience for both readers and journalists. Built with React and hosted on Vercel, it leverages Firebase for backend services including Authentication, Cloud Firestore, and Storage, ensuring secure access, real-time content updates, and efficient media management. Writers can easily publish and tag articles for better organization, while readers can browse by category, search topics, view featured and breaking news, and engage through comments. The platform also includes an admin dashboard for managing posts, users, and categories, along with social sharing and personalized content recommendations for a seamless and dynamic user experience.",
+		"brief": "A modern news platform built with React and hosted on Vercel, using Firebase for backend services including Authentication, Cloud Firestore, and Storage. The platform delivers real-time news updates across multiple categories while ensuring secure access and efficient media management.\n\nWriters can publish and tag articles, while readers can browse by category, search topics, view featured news, comment on posts, and share content. An integrated admin dashboard allows administrators to manage articles, users, and categories, creating a streamlined experience for both journalists and readers.",
 		"skillsUsed": [
 			"React",
 			"Git",
