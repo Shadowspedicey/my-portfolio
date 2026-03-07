@@ -73,6 +73,26 @@
 		]
 	},
 	{
+		"name": "Interactive Birthday Website",
+		"brief": "A creative and interactive website built as a personalized birthday gift. The site includes custom UI elements, animations, and themed sections inspired by my friend's interests such as cats, nail art, and gaming. The goal of the project was to design a fun and memorable user experience while experimenting with modern front-end development techniques, responsive design, and interactive components.",
+		"skillsUsed": [
+			"React",
+			"JavaScript",
+			"Tailwind CSS",
+			"Swiper.js"
+		],
+		"images": [
+			"0.png",
+			"3.png",
+			"1.png",
+			"4.png",
+			"5.png",
+			"2.png"
+		],
+		"githubLink": "https://github.com/Shadowspedicey/sophie-20-birthday",
+		"livePreviewLink": "https://shadowspedicey.github.io/sophie-20-birthday/"
+	},
+	{
 		"name": "News Website",
 		"brief": "A news website that delivers coverage across diverse categories, offering an engaging experience for both readers and journalists. Built with React and hosted on Vercel, it leverages Firebase for backend services including Authentication, Cloud Firestore, and Storage, ensuring secure access, real-time content updates, and efficient media management. Writers can easily publish and tag articles for better organization, while readers can browse by category, search topics, view featured and breaking news, and engage through comments. The platform also includes an admin dashboard for managing posts, users, and categories, along with social sharing and personalized content recommendations for a seamless and dynamic user experience.",
 		"skillsUsed": [
