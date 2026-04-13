@@ -73,6 +73,30 @@
 		]
 	},
 	{
+		"name": "Learning Center Management System",
+		"brief": "A web-based management platform designed to streamline operations and provide clear financial and performance insights for learning centers. It features a centralized dashboard to track key metrics such as revenue, projected earnings, costs, and net profit across multiple centers, with detailed breakdowns of costs (teacher salaries vs. operational expenses) and revenue (subscriptions vs. general income).\n\nThe system supports full management of teachers and students, along with a subscription model where students purchase lesson packages as the main revenue source. It also includes teacher payment tracking to manage payouts and maintain accurate financial records.\n\nAdditionally, the platform offers analytics and visual insights, with time-based filtering by month and year to enable accurate financial tracking, performance analysis, and better decision-making.",
+		"skillsUsed": [
+			"Next.Js",
+			"JavaScript",
+			"Tailwind CSS",
+			"C#",
+			"ASP.NET Core Minimal APIs",
+			"PostgreSQL",
+			"Entity Framework Core",
+			"Git",
+			"Vercel"
+		],
+		"images": [
+			"0.png",
+			"1.png",
+			"5.png",
+			"2.png",
+			"3.png",
+			"4.png",
+			"6.png"
+		]
+	},
+	{
 		"name": "Interactive Birthday Website",
 		"brief": "A creative and interactive website built as a personalized birthday gift. The site includes custom UI elements, animations, and themed sections inspired by my friend's interests such as cats, nail art, and gaming.\n\nThe goal of the project was to design a fun and memorable user experience while experimenting with modern front-end development techniques, responsive design, and interactive components.",
 		"skillsUsed": [
